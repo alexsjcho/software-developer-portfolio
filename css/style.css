@@ -232,7 +232,7 @@ hr {
 #about p {
   margin-top: 20px;
   margin-bottom: 30px;
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 /* Skills Section */
 #skills {
@@ -575,7 +575,7 @@ ol.type li a:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 #contact p {
-  font-size: 1.15em;
+  font-size: 1.1em;
 }
 
 #contact .social {
