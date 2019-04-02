@@ -202,6 +202,7 @@ hr {
   background-color: rgba(11, 10, 10, 0.522);
   background-size: contain;
   color: #eceeee;
+  display: inline-block;
 }
 
 .intro-text > a {
