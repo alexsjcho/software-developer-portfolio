@@ -216,7 +216,9 @@ hr {
 /* About Section */
 #about {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: -moz-linear-gradient(-45deg, #0de58792 0%, #60d1f774 90%);
+  background: -webkit-linear-gradient(-45deg, #0de58793 0%, #60d1f772 90%);
+  background: linear-gradient(135deg, #0de58792 0%, #60d1f772 90%);
 }
 #about .about-text {
   margin-left: 10px;
@@ -230,13 +232,14 @@ hr {
 #about p {
   margin-top: 20px;
   margin-bottom: 30px;
+  font-size: 1.25em;
 }
 /* Skills Section */
 #skills {
   padding: 100px 0;
-  background: -moz-linear-gradient(-45deg, #0de58792 0%, #60d1f774 90%);
-  background: -webkit-linear-gradient(-45deg, #0de58793 0%, #60d1f772 90%);
-  background: linear-gradient(135deg, #0de58792 0%, #60d1f772 90%);
+  background: -moz-linear-gradient(-45deg, #0e1acedd 0%, #524ae874 90%);
+  background: -webkit-linear-gradient(-45deg, #0e1acedd 0%, #524ae874 90%);
+  background: linear-gradient(135deg, #0e1acedd 0%, #524ae874 90%);
 }
 #skills h2 {
   color: #121d1f;
@@ -290,9 +293,9 @@ hr {
   background: #ffffff; /* Old browsers */
   background: -moz-linear-gradient(
     top,
-    #ffffff 0%,
-    #f4f5f6 49%,
-    #ffffff 100%
+    #f6f6f6,
+    #e9ecf0 49%,
+    #d9dee4 97%
   ); /* FF3.6+ */
   background: -webkit-gradient(
     linear,
@@ -304,27 +307,27 @@ hr {
   ); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(
     top,
-    #ffffff 0%,
-    #f4f5f6 49%,
-    #ffffff 100%
+    #f6f6f6,
+    #e9ecf0 49%,
+    #d9dee4 97%
   ); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(
     top,
-    #ffffff 0%,
-    #f4f5f6 49%,
-    #ffffff 100%
+    #f6f6f6,
+    #e9ecf0 49%,
+    #d9dee4 97%
   ); /* Opera 11.10+ */
   background: -ms-linear-gradient(
     top,
-    #ffffff 0%,
-    #f4f5f6 49%,
-    #ffffff 100%
+    #f6f6f6,
+    #e9ecf0 49%,
+    #d9dee4 97%
   ); /* IE10+ */
   background: linear-gradient(
     to bottom,
-    #ffffff 0%,
-    #f4f5f6 49%,
-    #ffffff 100%
+    #f6f6f6,
+    #e9ecf0 49%,
+    #d9dee4 97%
   ); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 }
@@ -454,7 +457,7 @@ ol.type li a:hover {
 /* Resume Section */
 #resume {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: #f6f6f6, #e9ecf0 49%, #d9dee4 97%;
 }
 .timeline {
   position: relative;
@@ -561,9 +564,9 @@ ol.type li a:hover {
 #contact {
   padding: 100px 0 40px 0;
   color: #121d1f;
-  background: -moz-linear-gradient(-45deg, #0de58792 0%, #60d1f774 90%);
-  background: -webkit-linear-gradient(-45deg, #0de58793 0%, #60d1f772 90%);
-  background: linear-gradient(135deg, #0de58792 0%, #60d1f772 90%);
+  background: -moz-linear-gradient(-45deg, #f58803d0 0%, #e82e04c9 90%);
+  background: -webkit-linear-gradient(-45deg, #f58803d0 0%, #e82e04c9 90%);
+  background: linear-gradient(135deg, #f58803d0 0%, #e82e04c9 90%);
 }
 #contact h2 {
   color: #121d1f;
