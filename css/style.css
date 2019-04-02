@@ -203,6 +203,7 @@ hr {
   background-size: contain;
   color: #eceeee;
   display: inline-block;
+  font-size: 1.1em;
 }
 
 .intro-text > a {
