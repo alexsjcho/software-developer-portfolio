@@ -59,7 +59,7 @@ function main() {
     $(window).load(function() {
       var $container = $(".portfolio-items");
       $container.isotope({
-        filter: "*",
+        filter: ".myproject",
         animationOptions: {
           duration: 750,
           easing: "linear",
