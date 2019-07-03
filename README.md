@@ -2,6 +2,13 @@
 
 ## KEY PROJECTS I'VE BUILT
 
+### DevUp MERN Stack App
+
+1. [Link to Live Demo App](https://mysterious-beach-31537.herokuapp.com/)
+2. [Product Development Roadmap Google Sheet ](https://docs.google.com/spreadsheets/d/1o4sprh2MZLxBz51ovs73EU60IZluEcdfZgjpZjyBkiU/edit?usp=sharing)
+3. [Trello Board: Project Management](https://trello.com/b/sm1E6ew0/devup-mern-stack-project)
+4. [Link to GitHub Repo ](https://github.com/alexsjcho/mern-social-full-stack-app)
+
 ### Qualified React, Redux, Immutable App
 
 1. [Link to Live Demo App ](https://nifty-hugle-cf06c5.netlify.com)
@@ -24,7 +31,7 @@
 2. [Qualified Product Development Roadmap Google Sheet ](https://docs.google.com/spreadsheets/d/1rEqcpEd8b2sCHKsGvMcy7s1Rh6V66-jFo1X5c5EcSOE/edit?usp=sharing)
 3. [Link to GitHub Repo ](https://github.com/alexsjcho/mentor-near-api-capstone)
 
-## TECHNOLOGIES / SKILLSET
+## PRIMARY TECHNOLOGIES / SKILLSET
 
 1. HTML5
 2. CSS3
@@ -36,6 +43,14 @@
 8. Jest, Enzyme testing
 9. Sass - CSS pre-processor
 10. jQuery
+11. Node.js
+12. Express.js
+13. MongoDB
+
+## SECONDARY TECHNOLOGIES / SKILLSET
+
+1. Ruby on Rails
+2. Python
 
 # MENTORS
 
