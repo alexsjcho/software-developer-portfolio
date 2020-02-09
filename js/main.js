@@ -55,7 +55,7 @@ function main() {
     // //console.log(nagativeValue)
     // });
 
-    // Portfolio isotope filter
+    // Projects isotope filter
     $(window).load(function() {
       var $container = $('.portfolio-items');
       $container.isotope({
@@ -66,8 +66,8 @@ function main() {
           queue: false
         }
       });
-      $('.cat a').click(function() {
-        $('.cat .active').removeClass('active');
+      $('.projects-categories a').click(function() {
+        $('.projects-categories .active').removeClass('active');
         $(this).addClass('active');
         var selector = $(this).attr('data-filter');
         $container.isotope({
@@ -93,8 +93,8 @@ function main() {
           queue: false
         }
       });
-      $('.cat a').click(function() {
-        $('.cat .active').removeClass('active');
+      $('.skills-categories a').click(function() {
+        $('.skills-categories .active').removeClass('active');
         $(this).addClass('active');
         var selector = $(this).attr('data-filter');
         $container.isotope({
