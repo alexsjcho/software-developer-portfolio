@@ -239,6 +239,7 @@ hr {
 }
 /* Skills Section */
 #skills {
+  display: flex;
   padding: 100px 0;
   background: -moz-linear-gradient(-45deg, #f3f3f9 0%, #e7e2ec 90%);
   background: -webkit-linear-gradient(-45deg, #f3f3f9 0%, #e7e2ec 90%);
@@ -251,17 +252,18 @@ hr {
   background: rgba(255, 255, 255, 0.3);
 }
 #skills .skill {
-  margin-bottom: 40px;
-  text-align: center;
-  padding: 0px;
+  margin: 40px;
+  text-align: relative;
+  padding: 10px;
 }
 #skills .skill h4 {
-  font-weight: 600;
+  font-weight: 400;
   color: #121d1f;
 }
 .skill-logo {
   width: 100px;
   height: 100px;
+  display: block;
 }
 
 .chart {
@@ -290,6 +292,7 @@ hr {
   margin-left: 0.1em;
   font-size: 0.8em;
 }
+
 /* Portfolio Section */
 #portfolio {
   padding: 80px 0;
@@ -338,7 +341,12 @@ hr {
   padding-bottom: 30px;
   text-align: center;
 }
-ul.cat li {
+ul.skills-categories li {
+  display: inline-block;
+  padding: 10px;
+}
+
+ul.projects-categories li {
   display: inline-block;
   padding: 10px;
 }
