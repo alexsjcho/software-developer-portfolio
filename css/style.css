@@ -183,7 +183,7 @@ hr {
 }
 /* Home Section */
 .intro {
-  display: table;
+  display: content;
   width: 100%;
   height: 100%;
   padding: 50px 0;
@@ -191,11 +191,11 @@ hr {
   color: rgb(40, 37, 37);
   background: url(../img/intro-bg.jpg) no-repeat center;
   background-color: #121d1f;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-size: 80%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+  background-size: 60%;
   margin: 1px;
 }
 
